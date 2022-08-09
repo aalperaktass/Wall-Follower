@@ -1,0 +1,38 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.32639482700896166 0.8940854653689964 0.30672071582743654 1.6005117091864034
+  position 2.052785567627178 1.7767000016320424 0.04691226400369877
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 2
+}
+E-puck {
+  translation -0.020989307813936597 -6.430910979461461e-05 -0.15779754370499618
+  rotation -0.0008995913528367796 0.9999995436532553 -0.00032160329480436056 0.26418542000928147
+  controller "wallfollower_controller"
+}
+Wall {
+  translation 0.3 0 0
+  rotation 0 1 0 0.05
+  name "wall(4)"
+  size 1 0.09 0.01
+}
+Wall {
+  translation 0.7 0 0.1
+  rotation 0 1 0 1.57
+  name "wall(5)"
+  size 1.1 0.1 0.01
+}
+Wall {
+  translation -0.1 0 0
+  rotation 0 1 0 1.57
+  name "wall(3)"
+  size 1 0.1 0.02
+}
